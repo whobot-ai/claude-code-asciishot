@@ -1,0 +1,21 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                            技 术 选 型 决 策 树                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+                         ┌─ React + Next.js ─▸ Vercel
+              ┌─ Web ────┤─ Vue + Nuxt ─▸ Netlify
+              │          └─ Svelte + SvelteKit
+              │
+              │          ┌─ Flutter + Dart ─▸ 跨平台
+              ├─ 移动 ───┤─ Swift / Kotlin ─▸ 原生
+              │          └─ React Native ─▸ 混合
+              │
+  需要什么? ──┤          ┌─ Go + Gin ─▸ K8s 部署
+              │          ├─ Rust + Axum ─▸ 高性能
+              ├─ 后端 ───┤
+              │          ├─ Python + FastAPI ─▸ AI
+              │          └─ Node + Express ─▸ 全栈
+              │
+              │          ┌─ Electron ─▸ 跨平台
+              └─ 桌面 ───┤
+                         └─ Tauri + Rust ─▸ 轻量

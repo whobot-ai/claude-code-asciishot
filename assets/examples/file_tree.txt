@@ -1,0 +1,49 @@
+╔═════════════════════════════════════════════════════════════════════════════╗
+║                       项 目 目 录 结 构 · 全 栈 应 用                       ║
+╚═════════════════════════════════════════════════════════════════════════════╝
+
+  my-fullstack-app/
+  │
+  ├── frontend/                          ── React 前端
+  │   ├── src/
+  │   │   ├── components/
+  │   │   │   ├── Header.tsx
+  │   │   │   ├── Sidebar.tsx
+  │   │   │   └── Dashboard.tsx
+  │   │   ├── pages/
+  │   │   │   ├── Home.tsx
+  │   │   │   ├── Login.tsx
+  │   │   │   └── Settings.tsx
+  │   │   ├── hooks/
+  │   │   │   ├── useAuth.ts
+  │   │   │   └── useApi.ts
+  │   │   ├── App.tsx
+  │   │   └── main.tsx
+  │   ├── public/
+  │   ├── package.json
+  │   └── vite.config.ts
+  │
+  ├── backend/                           ── Go 后端
+  │   ├── cmd/
+  │   │   └── server/
+  │   │       └── main.go
+  │   ├── internal/
+  │   │   ├── handler/                   ── HTTP 处理
+  │   │   ├── service/                   ── 业务逻辑
+  │   │   ├── repository/               ── 数据访问
+  │   │   └── model/                     ── 数据模型
+  │   ├── pkg/
+  │   │   ├── middleware/
+  │   │   └── utils/
+  │   ├── go.mod
+  │   └── Makefile
+  │
+  ├── deploy/                            ── 部署配置
+  │   ├── docker-compose.yml
+  │   ├── Dockerfile.frontend
+  │   ├── Dockerfile.backend
+  │   └── nginx.conf
+  │
+  ├── .github/workflows/ci.yml          ── CI/CD
+  ├── .env.example
+  └── README.md
